@@ -1,0 +1,2 @@
+To use ground truth but not exactly same with ground truth:
+still using the same second_ave bandwidth trace, not average bw for each download (as optimal single experiment)

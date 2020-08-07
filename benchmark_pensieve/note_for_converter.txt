@@ -1,0 +1,5 @@
+THis is the command to convert savedmodel to js model
+
+	tensorflowjs_converter --input_format=tf_saved_model --output_node_names="actor/FullyConnected_5/Softmax" --saved_model_tags=serve ./models/sm_2s_ep_48000/ ./js_models/web_model
+
+THe option: output_node_names is the name of the output tensor of the neural network!!!!!!

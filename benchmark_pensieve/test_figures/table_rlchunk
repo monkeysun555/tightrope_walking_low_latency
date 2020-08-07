@@ -1,0 +1,5 @@
+['files', 'throughut', 'rate', 'reward', 'freezing', '#freezing', 'latency', 'switch', 'sync', 'starting_time']
+['RLChunk_norway_train_10', 2.274, 1746.0, 1.429, 0.293, 2, 2.631, 19.0, 0.0, 2339.0]
+['RLChunk_norway_car_10', 1.881, 1195.0, 0.945, 0.271, 2, 2.608, 15.0, 0.0, 2339.0]
+['RLChunk_norway_car_2', 1.407, 1128.0, 0.786, 0.987, 2, 3.321, 19.0, 0.0, 2339.0]
+
