@@ -34,11 +34,11 @@ USER_START_UP_TH = 2000.0
 USER_FREEZING_TOL = 3000.0                                  # Single time freezing time upper bound
 
 DEFAULT_ACTION = 0          # lowest bitrate
-ACTION_REWARD = 1.0 * CHUNK_SEG_RATIO   
+ACTION_REWARD = 1.5 * CHUNK_SEG_RATIO   
 REBUF_PENALTY = 6.0     # for second
 SMOOTH_PENALTY = 1.0
 MISSING_PENALTY = 6.0 * CHUNK_SEG_RATIO # not included
-LONG_DELAY_PENALTY_NEW = 0.5 * CHUNK_SEG_RATIO  # For linear
+LONG_DELAY_PENALTY_NEW = 0.1 * CHUNK_SEG_RATIO  # For linear
 # LONG_DELAY_PENALTY = 4.0 * CHUNK_SEG_RATIO  # For sigmoid
 CONST = 6.0
 X_RATIO = 1.0

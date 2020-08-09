@@ -14,9 +14,9 @@ class Config(object):
     epsilon_start = 1.0
     epsilon_final = 0.0001
     if model_version == 0:
-        epsilon_decay = 30000.0          # less, focus faster
+        epsilon_decay = 50000.0          # less, focus faster
     else:
-        epsilon_decay = 30000.0          # less, focus faster
+        epsilon_decay = 50000.0          # less, focus faster
     if model_version == 0 or model_version == 1:
         logs_path = './models/logs_m_' + str(model_version) + '/t_' + str(target_version) + '/l_' + str(loss_version)
     else:
@@ -25,15 +25,15 @@ class Config(object):
     total_episode = 50000
     discount_factor = 0.99
     save_logs_frequency = 500
-    lr = 1e-3
-    # lr = 5e-4
+    # lr = 1e-3
+    lr = 5e-4
     momentum = 0.9
     # batch_size = 300
     observe_episode = 5
     sampling_batch_size = 200
     update_target_frequency = 50
     show_loss_frequency = 500
-    maximum_model = 10
+    maximum_model = 20
     random_seed = 11
     massive_result_files = './all_results/'
     a_massive_result_files = './amplified_all_results/'
@@ -73,7 +73,7 @@ class Env_Config(object):
     chunk_duration = 200.0
     chunk_in_seg = seg_duration/chunk_duration
     chunk_seg_ratio = chunk_duration/seg_duration
-    server_init_lat_low = 2
+    server_init_lat_low = 3
     server_init_lat_high = 5
     start_up_ssh = 2000.0
     freezing_tol = 3000.0 
@@ -98,7 +98,7 @@ class Env_Config(object):
     action_reward = 1.5 * chunk_seg_ratio   
     rebuf_penalty = 6.0              # For training  (6)              
     smooth_penalty = 1.0
-    long_delay_penalty_new = 0.1 * chunk_seg_ratio  # For linear 
+    long_delay_penalty_new = 0.2 * chunk_seg_ratio  # For linear 
     # long_delay_penalty = 4.0 * chunk_seg_ratio
     const = 6.0
     x_ratio = 1.0 

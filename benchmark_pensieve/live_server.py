@@ -27,7 +27,7 @@ EST_LOW_NOISE = 0.98
 EST_HIGH_NOISE = 1.02
 
 ########## Added for benchmark MM pensieve 
-SERVER_INIT_LAT_LOW = 2
+SERVER_INIT_LAT_LOW = 3
 SERVER_INIT_LAT_HIGH = 5
 ##########################################
 

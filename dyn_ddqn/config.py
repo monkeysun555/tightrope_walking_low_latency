@@ -78,7 +78,7 @@ class Env_Config(object):
     chunk_duration = 200.0
     chunk_in_seg = seg_duration/chunk_duration
     chunk_seg_ratio = chunk_duration/seg_duration
-    server_init_lat_low = 2
+    server_init_lat_low = 3
     server_init_lat_high = 5
     start_up_ssh = 2000.0
     freezing_tol = 3000.0 

@@ -20,7 +20,7 @@ class stallion_solver(object):
         self.tp_f = 1.0
         self.latency_f = 1.25
         self.n_step = 10
-        self.target_latency = 1.0
+        self.target_latency = 2.0
         self.speed_buffer_tth = 0.6
         self.tp_history = []
         self.latency_history = []

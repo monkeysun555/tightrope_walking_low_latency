@@ -18,10 +18,10 @@ MAX_RATE = BITRATE[-1]/KB_IN_MB
 class iLQR_solver(object):
     def __init__(self):
         # For new traces
-        self.w1 = 1
+        self.w1 = 1.5
         self.w2 = 1
         self.w3 = 1             # Freeze
-        self.w4 = 0.5           # For linear 0.3 might be good          
+        self.w4 = 0.1           # For linear 0.3 might be good          
         self.w5 = 15           # Speed unnormal
         self.w6 = 15           # Speed change
         self.barrier_1 = 1

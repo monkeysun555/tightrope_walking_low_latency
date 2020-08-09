@@ -78,7 +78,7 @@ class Env_Config(object):
     chunk_duration = 200.0
     chunk_in_seg = seg_duration/chunk_duration
     chunk_seg_ratio = chunk_duration/seg_duration
-    server_init_lat_low = 2
+    server_init_lat_low = 3
     server_init_lat_high = 5
     start_up_ssh = 2000.0
     freezing_tol = 3000.0 
@@ -100,10 +100,10 @@ class Env_Config(object):
     est_high_noise = 1.02
 
     # Reward metrics parameters
-    action_reward = 1.0 * chunk_seg_ratio   
+    action_reward = 1.5 * chunk_seg_ratio   
     rebuf_penalty = 6.0                         
     smooth_penalty = 1.0
-    long_delay_penalty_new = 0.5 * chunk_seg_ratio
+    long_delay_penalty_new = 0.1 * chunk_seg_ratio
     # long_delay_penalty = 4.0 * chunk_seg_ratio
     const = 6.0
     x_ratio = 1.0 
