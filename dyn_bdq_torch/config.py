@@ -24,7 +24,7 @@ class Config(object):
     reply_buffer_size = 2000
     total_episode = 50000
     discount_factor = 0.99
-    save_logs_frequency = 500
+    save_logs_frequency = 100
     # lr = 1e-3
     lr = 5e-4
     momentum = 0.9
