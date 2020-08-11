@@ -12,7 +12,7 @@
 module purge
 
 VIRTUALENV=$SCRATCH
-RUNDIR=$SCRATCH/low_latency_streaming/infocom21_experiments/benchmark_pensieve
+RUNDIR=$SCRATCH/low_latency_streaming/infocom21_rate/benchmark_pensieve
 
 cd $VIRTUALENV
 

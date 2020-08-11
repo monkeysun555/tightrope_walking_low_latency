@@ -14,9 +14,9 @@ class Config(object):
     epsilon_start = 1.0
     epsilon_final = 0.0001
     if model_version == 0:
-        epsilon_decay = 40000.0          # less, focus faster
+        epsilon_decay = 30000.0          # less, focus faster
     else:
-        epsilon_decay = 40000.0          # less, focus faster
+        epsilon_decay = 30000.0          # less, focus faster
     if model_version == 0 or model_version == 1:
         logs_path = './models/logs_m_' + str(model_version) + '/t_' + str(target_version) + '/l_' + str(loss_version)
     else:
@@ -24,9 +24,9 @@ class Config(object):
     reply_buffer_size = 2000
     total_episode = 50000
     discount_factor = 0.99
-    save_logs_frequency = 100
-    # lr = 1e-3
-    lr = 5e-4
+    save_logs_frequency = 500
+    lr = 1e-3
+    # lr = 5e-4
     momentum = 0.9
     # batch_size = 300
     observe_episode = 5
@@ -98,7 +98,7 @@ class Env_Config(object):
     action_reward = 1.5 * chunk_seg_ratio   
     rebuf_penalty = 6.0              # For training  (6)              
     smooth_penalty = 1.0
-    long_delay_penalty_new = 0.5 * chunk_seg_ratio  # For linear 
+    long_delay_penalty_new = 0.1 * chunk_seg_ratio  # For linear 
     # long_delay_penalty = 4.0 * chunk_seg_ratio
     const = 6.0
     x_ratio = 1.0 

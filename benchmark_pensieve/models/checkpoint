@@ -1,6 +1,0 @@
-model_checkpoint_path: "nn_model_s_ep_90000.ckpt"
-all_model_checkpoint_paths: "nn_model_s_ep_86000.ckpt"
-all_model_checkpoint_paths: "nn_model_s_ep_87000.ckpt"
-all_model_checkpoint_paths: "nn_model_s_ep_88000.ckpt"
-all_model_checkpoint_paths: "nn_model_s_ep_89000.ckpt"
-all_model_checkpoint_paths: "nn_model_s_ep_90000.ckpt"
