@@ -1,0 +1,252 @@
+player initial finish
+Episode starts from:  1
+episode: 500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-500.pth
+episode: 1000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-1000.pth
+Episode: 1000 Reward: 97.583 Loss: 25.820
+episode: 1500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-1500.pth
+episode: 2000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-2000.pth
+Episode: 2000 Reward: 140.050 Loss: 37.757
+episode: 2500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-2500.pth
+episode: 3000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-3000.pth
+Episode: 3000 Reward: 71.604 Loss: 15.949
+episode: 3500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-3500.pth
+episode: 4000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-4000.pth
+Episode: 4000 Reward: 55.624 Loss: 10.139
+episode: 4500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-4500.pth
+episode: 5000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-5000.pth
+Episode: 5000 Reward: 63.993 Loss: 12.566
+episode: 5500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-5500.pth
+episode: 6000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-6000.pth
+Episode: 6000 Reward: -4321.868 Loss: 64.203
+episode: 6500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-6500.pth
+episode: 7000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-7000.pth
+Episode: 7000 Reward: 66.355 Loss: 49.105
+episode: 7500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-7500.pth
+episode: 8000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-8000.pth
+Episode: 8000 Reward: -548.911 Loss: 30.036
+episode: 8500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-8500.pth
+episode: 9000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-9000.pth
+Episode: 9000 Reward: -142.530 Loss: 44.956
+episode: 9500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-9500.pth
+episode: 10000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-10000.pth
+Episode: 10000 Reward: 222.631 Loss: 42.593
+episode: 10500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-10500.pth
+episode: 11000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-11000.pth
+Episode: 11000 Reward: 242.170 Loss: 16.675
+episode: 11500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-11500.pth
+episode: 12000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-12000.pth
+Episode: 12000 Reward: 297.744 Loss: 33.391
+episode: 12500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-12500.pth
+episode: 13000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-13000.pth
+Episode: 13000 Reward: -2970.038 Loss: 35.658
+episode: 13500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-13500.pth
+episode: 14000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-14000.pth
+Episode: 14000 Reward: -1564.601 Loss: 48.429
+episode: 14500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-14500.pth
+episode: 15000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-15000.pth
+Episode: 15000 Reward: 370.069 Loss: 11.236
+episode: 15500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-15500.pth
+episode: 16000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-16000.pth
+Episode: 16000 Reward: 396.421 Loss: 32.339
+episode: 16500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-16500.pth
+episode: 17000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-17000.pth
+Episode: 17000 Reward: 478.547 Loss: 6.176
+episode: 17500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-17500.pth
+episode: 18000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-18000.pth
+Episode: 18000 Reward: -2307.359 Loss: 26.383
+episode: 18500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-18500.pth
+episode: 19000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-19000.pth
+Episode: 19000 Reward: 319.081 Loss: 23.148
+episode: 19500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-19500.pth
+episode: 20000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-20000.pth
+Episode: 20000 Reward: 480.851 Loss: 12.817
+episode: 20500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-20500.pth
+episode: 21000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-21000.pth
+Episode: 21000 Reward: 406.075 Loss: 9.457
+episode: 21500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-21500.pth
+episode: 22000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-22000.pth
+Episode: 22000 Reward: 199.839 Loss: 23.779
+episode: 22500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-22500.pth
+episode: 23000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-23000.pth
+Episode: 23000 Reward: -1961.764 Loss: 35.393
+episode: 23500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-23500.pth
+episode: 24000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-24000.pth
+Episode: 24000 Reward: 446.077 Loss: 9.241
+episode: 24500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-24500.pth
+episode: 25000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-25000.pth
+Episode: 25000 Reward: -794.350 Loss: 13.715
+episode: 25500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-25500.pth
+episode: 26000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-26000.pth
+Episode: 26000 Reward: 401.922 Loss: 33.952
+episode: 26500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-26500.pth
+episode: 27000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-27000.pth
+Episode: 27000 Reward: 578.707 Loss: 8.822
+episode: 27500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-27500.pth
+episode: 28000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-28000.pth
+Episode: 28000 Reward: 142.376 Loss: 22.233
+episode: 28500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-28500.pth
+episode: 29000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-29000.pth
+Episode: 29000 Reward: 465.978 Loss: 49.568
+episode: 29500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-29500.pth
+episode: 30000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-30000.pth
+Episode: 30000 Reward: -1463.280 Loss: 44.562
+episode: 30500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-30500.pth
+episode: 31000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-31000.pth
+Episode: 31000 Reward: 336.126 Loss: 27.560
+episode: 31500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-31500.pth
+episode: 32000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-32000.pth
+Episode: 32000 Reward: 505.865 Loss: 21.290
+episode: 32500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-32500.pth
+episode: 33000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-33000.pth
+Episode: 33000 Reward: 511.809 Loss: 19.025
+episode: 33500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-33500.pth
+episode: 34000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-34000.pth
+Episode: 34000 Reward: 552.709 Loss: 11.930
+episode: 34500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-34500.pth
+episode: 35000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-35000.pth
+Episode: 35000 Reward: -190.396 Loss: 23.372
+episode: 35500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-35500.pth
+episode: 36000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-36000.pth
+Episode: 36000 Reward: 641.328 Loss: 13.118
+episode: 36500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-36500.pth
+episode: 37000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-37000.pth
+Episode: 37000 Reward: 492.152 Loss: 16.738
+episode: 37500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-37500.pth
+episode: 38000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-38000.pth
+Episode: 38000 Reward: 513.825 Loss: 8.064
+episode: 38500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-38500.pth
+episode: 39000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-39000.pth
+Episode: 39000 Reward: 736.895 Loss: 9.323
+episode: 39500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-39500.pth
+episode: 40000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-40000.pth
+Episode: 40000 Reward: 843.027 Loss: 14.283
+episode: 40500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-40500.pth
+episode: 41000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-41000.pth
+Episode: 41000 Reward: 432.406 Loss: 10.039
+episode: 41500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-41500.pth
+episode: 42000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-42000.pth
+Episode: 42000 Reward: 820.682 Loss: 7.629
+episode: 42500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-42500.pth
+episode: 43000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-43000.pth
+Episode: 43000 Reward: 605.853 Loss: 12.310
+episode: 43500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-43500.pth
+episode: 44000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-44000.pth
+Episode: 44000 Reward: 517.963 Loss: 13.410
+episode: 44500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-44500.pth
+episode: 45000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-45000.pth
+Episode: 45000 Reward: 525.927 Loss: 14.827
+episode: 45500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-45500.pth
+episode: 46000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-46000.pth
+Episode: 46000 Reward: 337.049 Loss: 15.322
+episode: 46500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-46500.pth
+episode: 47000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-47000.pth
+Episode: 47000 Reward: 587.110 Loss: 7.202
+episode: 47500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-47500.pth
+episode: 48000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-48000.pth
+Episode: 48000 Reward: -418.357 Loss: 13.321
+episode: 48500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-48500.pth
+episode: 49000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-49000.pth
+Episode: 49000 Reward: 619.899 Loss: 14.900
+episode: 49500
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-49500.pth
+episode: 50000
+=> Save ./models/logs_m_0/t_0/l_0/latency_Nones/model-50000.pth
+Episode: 50000 Reward: 891.503 Loss: 4.904
