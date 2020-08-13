@@ -87,6 +87,7 @@ def main():
                     action_1, action_2 = iLQR_solver.iterate_LQR()
                     if iLQR_solver.checking():
                         bit_rate = iLQR_solver.nan_index()
+                        action_1 = bit_rate
                         action_2 = env.get_pre_actions()[1]
                         print("got 1") 
                 ave_bw, reward = env.act(action_1, action_2, log_file, massive=massive)

@@ -158,7 +158,7 @@ def main():
                     action_freezing += freezing
                     if time_out:
                         assert player.get_state() == 0
-                        assert np.round(player.get_buffer_length(), 3) == 0.0
+                        assert np.round(player.get_buffer(), 3) == 0.0
                         # Pay attention here, how time out influence next reward, the smoothness
                         # Bit_rate will recalculated later, this is for reward calculation
                         bit_rate = 0
