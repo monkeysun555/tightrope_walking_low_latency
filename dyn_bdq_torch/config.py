@@ -22,7 +22,7 @@ class Config(object):
     else:
         logs_path = './models/logs_m_' + str(model_version) + '/q_' + str(q_version) + '/t_' + str(target_version) + '/l_' + str(loss_version)
     reply_buffer_size = 2000
-    total_episode = 52000
+    total_episode = 53000
     discount_factor = 0.99
     save_logs_frequency = 200
     # lr = 1e-3
@@ -98,7 +98,7 @@ class Env_Config(object):
     action_reward = 1.5 * chunk_seg_ratio   
     rebuf_penalty = 6.0              # For training  (6)              
     smooth_penalty = 1.0
-    long_delay_penalty_new = 0.2 * chunk_seg_ratio  # For linear 
+    long_delay_penalty_new = 0.1 * chunk_seg_ratio  # For linear 
     # long_delay_penalty = 4.0 * chunk_seg_ratio
     const = 6.0
     x_ratio = 1.0 
