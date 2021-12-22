@@ -95,10 +95,10 @@ class Env_Config(object):
     est_high_noise = 1.02
 
     # Reward metrics parameters             # 1, 6, 1, 4, 6, 1, 2, 2, 3, 3
-    action_reward = 1.2 * chunk_seg_ratio   
-    rebuf_penalty = 10.0              # For training  (6)              
+    action_reward = 1.5 * chunk_seg_ratio   
+    rebuf_penalty = 6.0              # For training  (6)              
     smooth_penalty = 1.0
-    long_delay_penalty_new = 0.2 * chunk_seg_ratio  # For linear 
+    long_delay_penalty_new = 0.1 * chunk_seg_ratio  # For linear 
     # long_delay_penalty = 4.0 * chunk_seg_ratio
     const = 6.0
     x_ratio = 1.0 

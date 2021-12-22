@@ -20,8 +20,8 @@ class iLQR_solver(object):
         # For new traces
         self.w1 = 1.5
         self.w2 = 1
-        self.w3 = 1              # Freeze
-        self.w4 = 0.1             # Latency
+        self.w3 = 1.0              # Freeze
+        self.w4 = 0.05             # Latency
         self.w5 = 15              # Speed unnormal, due to **2
         self.w6 = 15              # Speed change, due to **2
         self.barrier_1 = 1
@@ -34,7 +34,7 @@ class iLQR_solver(object):
         self.predicted_bw = None
         # self.predicted_rtt = predicted_rtt
         self.predicted_rtt = None
-        self.n_iteration = 50
+        self.n_iteration = 10
         self.Bu = None
         self.b0 = None
         self.l0 = None
@@ -44,9 +44,12 @@ class iLQR_solver(object):
 
         self.kt_step = 1.
         self.KT_step = 1.
-        self.step_size = 0.15
-        self.decay = 1.
+        self.step_size = 0.1
+        self.decay = 0.99
         self.bw_ratio = 1.0 
+
+        self.eta1 = 0.9
+        self.eta2 = 1.1
 
     def set_step(self, step=DEF_N_STEP):
         self.n_step = step
@@ -109,7 +112,7 @@ class iLQR_solver(object):
 
     def set_initial_rates(self):
         # self.rates = [max(min(self.predicted_bw[0], BITRATE[-1]/KB_IN_MB), BITRATE[0]/KB_IN_MB)] * self.n_step
-        self.rates = [max(min(self.predicted_bw[0]*0.9, BITRATE[-1]/KB_IN_MB*0.9), BITRATE[0]/KB_IN_MB*1.1)] * self.n_step
+        self.rates = [max(min(self.predicted_bw[0]*self.eta1, BITRATE[-1]/KB_IN_MB*self.eta1), BITRATE[0]/KB_IN_MB*self.eta2)] * self.n_step
         # self.rates = [self.pu0] * self.n_step
         # self.speeds = [self.ps0] * self.n_step
         self.speeds = [1] * self.n_step
@@ -521,7 +524,7 @@ class iLQR_solver(object):
                 n_rate =  min(max(np.round(new_u[0][0], 2), 0.3), 6.0)
                 n_speed = min(max(np.round(new_u[1][0], 2), 0.9), 1.1)
                 # Check converge
-                if converge and (np.round(n_rate,1) != np.round(self.rates[step_i],1) or np.round(n_speed,2) != np.round(self.speeds[step_i], 2)):
+                if converge and (np.round(n_rate,1) != np.round(self.rates[step_i],2) or np.round(n_speed,2) != np.round(self.speeds[step_i], 1)):
                     converge = False
                 self.rates[step_i] = n_rate
                 self.speeds[step_i] = n_speed
